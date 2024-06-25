@@ -50,6 +50,11 @@ h1::before {
     border-radius: 50%;
 }
 
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
 h1::after {
     content: "";
     width: 30px;
@@ -58,17 +63,7 @@ h1::after {
     background-color: #000;
 }
 
-/* .gallery p::first-letter {
-    background-color: #f0f;
-    font-size: 40px;
-} */
-
-
-/* .gallery p::first-line {
-    background-color: #f00;
-} */
-
-.gallery p::selection {
-    background-color: rgb(89, 255, 0);
-    color: #e1e122;
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
 }

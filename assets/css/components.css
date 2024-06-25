@@ -44,6 +44,6 @@ footer {
     background-color: var(--primary-color);
 }
 
-.gallery {
-    /*  styling for my gallery page images */
+img {
+    width: 100%;
 }
