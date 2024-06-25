@@ -1,0 +1,24 @@
+.blog__btn {
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.blog__btn--danger {
+    background-color: #f11;
+}
+
+.blog__btn--warning {
+    background-color: #e1e116;
+}
+
+.blog h2 {
+
+}
+
+.blog img {
+
+}
+
+.blog p {
+    
+}
