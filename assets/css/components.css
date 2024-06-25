@@ -1,24 +1,41 @@
-.blog__btn {
-    border: 2px solid;
-    border-radius: 5px;
+body {
+    background-color: var(--secondary-color);
 }
 
-.blog__btn--danger {
-    background-color: #f11;
+header {
+    height: 150px;
+    background-color: var(--primary-color);
 }
 
-.blog__btn--warning {
-    background-color: #e1e116;
+nav {
+    height: 100%;
+    text-align: center;
+    line-height: 150px;
 }
 
-.blog h2 {
-
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0 30px;
+    color: #fff;
 }
 
-.blog img {
-
+.content img {
+    border: 10px solid var(--primary-color);
+    border-radius: 20px;
 }
 
-.blog p {
-    
+.content button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 20px;
+}
+
+footer {
+    height: 180px;
+    background-color: var(--primary-color);
 }

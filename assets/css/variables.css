@@ -1,0 +1,11 @@
+/* root is the root of your html code which is <html> */
+:root {
+    /* this is a css variable */
+    /* we are assigning #65921e value to --primary-color */
+  --primary-color: #60ade9;
+  --secondary-color: #e9d5d5;
+  /* --font-family: */
+  --site-width: 1600px;
+  /* --color:
+  --c: */
+}
