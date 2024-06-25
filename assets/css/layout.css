@@ -4,3 +4,22 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.row {
+    border: 10px solid
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+}
+
+p{
+    float: left;
+    width: 50%;
+}
