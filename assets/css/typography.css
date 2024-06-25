@@ -12,3 +12,63 @@ h1 {
     color: var(--secondary-color);
 }
 
+/* pseudo class */
+h1:hover {
+    color: #000;
+}
+
+/* pseudo elements */
+/* ::after and ::before */
+
+/* this doesn't mean after <h1> it means after h1 content */
+/* h1::after {
+    content: " page";
+}
+
+h1::before {
+    content: "hello "
+} */
+
+p::before {
+    content: "\2714";
+    font-size: 24px;
+    color: rgb(212, 17, 230);
+}
+
+/* h1::before {
+    content:"\2602";
+    color: #f11;
+} */
+
+h1::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #f11;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+h1::after {
+    content: "";
+    width: 30px;
+    height: 5px;
+    display: inline-block;
+    background-color: #000;
+}
+
+/* .gallery p::first-letter {
+    background-color: #f0f;
+    font-size: 40px;
+} */
+
+
+/* .gallery p::first-line {
+    background-color: #f00;
+} */
+
+.gallery p::selection {
+    background-color: rgb(89, 255, 0);
+    color: #e1e122;
+}

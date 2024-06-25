@@ -26,6 +26,10 @@ nav a {
     border-radius: 20px;
 }
 
+.button {
+    /*  */
+}
+
 .content button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -38,4 +42,8 @@ nav a {
 footer {
     height: 180px;
     background-color: var(--primary-color);
+}
+
+.gallery {
+    /*  styling for my gallery page images */
 }
